@@ -24,7 +24,7 @@ const Navbar = () => {
                      transition={{duration: 0.2 , delay: 0.3}}
                      className='flex gap-1'><span className='text-textGreen'>01.</span>About</motion.li>
                     </Link>
-                    <Link href="#home" className='flex gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 items-center'>
+                    <Link href="#experience" className='flex gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 items-center'>
                     <motion.li
                      initial={{y: -10 , opacity: 0}}
                      animate={{y:0 , opacity: 1}}
