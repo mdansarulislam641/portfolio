@@ -1,9 +1,10 @@
 import LeftSide from "@/components/LeftSide";
-import MiddleArea from "@/components/MiddleArea";
 import Navbar from "@/components/Navbar";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
-
+import {motion} from 'framer-motion';
+import Banner from "@/components/Banner";
+import About from "@/components/About";
 export default function Home() {
   return (
     <>
@@ -12,18 +13,28 @@ export default function Home() {
         <title>Md Ansarul Islam</title>
       </Head>
       <main className="w-full h-screen bg-bodyColor text-textLight font-bodyFont overflow-x-hidden overflow-y-scroll">
-        <Navbar />
+       <div>
+       <Navbar />
+       </div>
         {/* banner section start */}
         <div className="w-full h-[88vh] xl:flex gap-20 justify-between items-center">
-          <div className="hidden xl:inline-flex fixed bottom-0 left-0  w-32 h-full">
+          <motion.div
+          initial={{x:-20 , opacity:0}}
+          animate ={{x: 0 , opacity: 1}}
+          transition={{duration:1,delay: 1.5}}
+          className="hidden xl:inline-flex fixed bottom-0 left-0  w-32 h-full">
             <LeftSide/>
+          </motion.div>
+          <div className="h-[88vh] w-full mx-auto p-4">
+            <Banner/>
+            <About/>
           </div>
-          <div>
-            <MiddleArea/>
-          </div>
-          <div className="hidden xl:inline-flex fixed bottom-0 right-0  w-32 h-full">
+          <motion.div
+          initial={{x:20 , opacity:0}}
+          animate ={{x: 0 , opacity: 1}}
+          transition={{duration:1,delay: 1.5}} className="hidden xl:inline-flex fixed bottom-0 right-0  w-32 h-full">
             <RightSide/>
-          </div>
+          </motion.div>
         </div>
         {/* banner section end */}
       </main>
