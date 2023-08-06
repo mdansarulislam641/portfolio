@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 
 const Navbar = () => {
     return (
-        <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 bg-bodyColor px-4'>
+        <nav className='w-full shadow-navbarShadow h-20 lg:h-[12vh] bg-bodyColor px-4'>
            <div className='max-w-container h-full mx-auto py-1 flex items-center justify-between font-titleFont'>
             {/* nav logo  */}
             <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.3}} ><h1 className='text-[20px] lg:text-[30px] font-bold'>Ansarul</h1> </motion.div>
@@ -65,7 +65,7 @@ const Navbar = () => {
             </div>
             {/* small device section end  */}
            </div>
-        </div>
+        </nav>
     );
 };
 

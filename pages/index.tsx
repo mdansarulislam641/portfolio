@@ -13,7 +13,7 @@ export default function Home() {
         <title>Md Ansarul Islam</title>
       </Head>
       <main className="w-full h-screen bg-bodyColor text-textLight font-bodyFont overflow-x-hidden overflow-y-scroll">
-       <div>
+       <div className="sticky top-0">
        <Navbar />
        </div>
         {/* banner section start */}
