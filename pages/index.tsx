@@ -6,6 +6,7 @@ import {motion} from 'framer-motion';
 import Banner from "@/components/Banner";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 export default function Home() {
   return (
     <>
@@ -14,7 +15,7 @@ export default function Home() {
         <title>Md Ansarul Islam</title>
       </Head>
       <main className="w-full h-screen bg-bodyColor text-textLight font-bodyFont overflow-x-hidden overflow-y-scroll">
-       <div className="sticky top-0">
+       <div className="sticky top-0 z-50">
        <Navbar />
        </div>
         {/* banner section start */}
@@ -30,6 +31,7 @@ export default function Home() {
             <Banner/>
             <About/>
             <Experience/>
+            <Projects/>
           </div>
           <motion.div
           initial={{x:20 , opacity:0}}
