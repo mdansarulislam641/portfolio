@@ -1,10 +1,25 @@
-import React from 'react';
-
+import React , {useState} from 'react'
+import SectionTitle from "./SectionTitle";
 const Resume = () => {
+    
+    const [resume , setResume]  = useState('skill');
+    
+    const handleChange  = (value : string)  =>{
+        setResume(value)
+    }
     return (
-        <div>
-            
+        <section id="resume" className="max-w-container mx-auto lgl:px-20 py-24">
+        <SectionTitle title="My Resume" titleNo="04" />
+
+        {/* resume top btn  */}
+        <div className="flex justify-center  mdl:text-2xl shadow-cardShadow my-10">
+            <button onClick={()=>handleChange("skill")} className={`flex-1 ${resume === "skill" && 'shadow-cardShadow text-textGreen'}  py-7 px-4`}>PROFESSIONAL SKILLS </button>
+            <button onClick={()=>handleChange("education")}  className={`flex-1 ${resume === "education" && 'shadow-cardShadow text-textGreen'}  py-7 px-4`}>EDUCATION </button>
+            <button onClick={()=>handleChange("achieve")}  className={`flex-1 ${resume === "achieve" && 'shadow-cardShadow text-textGreen'}  py-7 px-4`}>ACHIEVE</button>
         </div>
+
+
+            </section>
     );
 };
 
