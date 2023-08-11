@@ -5,7 +5,7 @@ import images from "../public/assets/images/profile-img.JPG";
 import { TbBrandGithub } from "react-icons/tb";
 const Projects = () => {
   return (
-    <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
+    <section id="projects" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Some things i have build" titleNo="03" />
       <div className="flex flex-col w-full items-center justify-center gap-28 mt-20">
         {/* project 1 */}
