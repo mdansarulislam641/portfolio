@@ -9,7 +9,7 @@ const Experience = () => {
       className="max-w-contentContainer  mx-auto  py-10 lgl:py-20 px-4"
     >
       <SectionTitle title="What Skill I Have
-Experience" titleNo="02" />
+Experience" titleNo="03" />
       <div className="max-w-containerSmall my-10 mx-auto  grid   grid-cols-1 lg:grid-cols-2  gap-x-8 gap-y-10">
         {/* front end development  */}
         <motion.div

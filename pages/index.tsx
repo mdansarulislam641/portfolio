@@ -7,6 +7,7 @@ import Banner from "@/components/Banner";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
+import Service from "@/components/Service";
 export default function Home() {
   return (
     <>
@@ -30,6 +31,7 @@ export default function Home() {
           <div className="h-[88vh] w-full mx-auto p-4">
             <Banner/>
             <About/>
+            <Service/>
             <Experience/>
             <Projects/>
           </div>

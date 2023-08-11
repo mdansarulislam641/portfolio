@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       maxWidth:{
         container : "1440px",
-        contentContainer : "1140px",
+        contentContainer : "1240px",
         containerSmall :"1024px",
         containerXs : "768px"
       },
@@ -28,7 +28,8 @@ module.exports = {
       titleFont : ['Montserrat', 'sans-serif']
      },
      boxShadow : {
-      navbarShadow : "0 10px 30px -10px rgba(2 , 12 , 27 , 0.7) "
+      navbarShadow : "0 10px 30px -10px rgba(2 , 12 , 27 , 0.7) ",
+      cardShadow: "0px 0px 20px 10px rgba(0, 0, 0, .3)"
      },
      colors: {
       bodyColor : "#0A192F",

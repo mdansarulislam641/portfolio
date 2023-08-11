@@ -24,26 +24,33 @@ const Navbar = () => {
                      transition={{duration: 0.2 , delay: 0.3}}
                      className='flex gap-1'><span className='text-textGreen'>01.</span>About</motion.li>
                     </Link>
+                    <Link href="#services" className='flex gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 items-center'>
+                    <motion.li
+                     initial={{y: -10 , opacity: 0}}
+                     animate={{y:0 , opacity: 1}}
+                     transition={{duration: 0.3 , delay: 0.3}}
+                    className='flex gap-1'><span className='text-textGreen'>02.</span>Service</motion.li>
+                    </Link>
                     <Link href="#experience" className='flex gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 items-center'>
                     <motion.li
                      initial={{y: -10 , opacity: 0}}
                      animate={{y:0 , opacity: 1}}
                      transition={{duration: 0.3 , delay: 0.3}}
-                    className='flex gap-1'><span className='text-textGreen'>02.</span>Experience</motion.li>
+                    className='flex gap-1'><span className='text-textGreen'>03.</span>Experience</motion.li>
                     </Link>
                     <Link href="#home" className='flex gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 items-center'>
                    <motion.li
                     initial={{y: -10 , opacity: 0}}
                     animate={{y:0 , opacity: 1}}
                     transition={{duration: 0.4 , delay: 0.3}}
-                   className='flex gap-1'> <span className='text-textGreen' >03.</span>Project</motion.li>
+                   className='flex gap-1'> <span className='text-textGreen' >04.</span>Project</motion.li>
                     </Link>
                     <Link href="#home" className='flex gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 items-center'>
                   <motion.li
                    initial={{y: -10 , opacity: 0}}
                    animate={{y:0 , opacity: 1}}
                    transition={{duration: 0.5 , delay: 0.3}}
-                  className='flex gap-1'>  <span className='text-textGreen'>04.</span>Contact</motion.li>
+                  className='flex gap-1'>  <span className='text-textGreen'>05.</span>Contact</motion.li>
                     </Link>
                 </ul>
            <a href="/MERN-Stack-Deleloper.pdf" target='_blank'>
