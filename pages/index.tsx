@@ -5,7 +5,6 @@ import Head from "next/head";
 import {motion} from 'framer-motion';
 import Banner from "@/components/Banner";
 import About from "@/components/About";
-import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Service from "@/components/Service";
 import Resume from "@/components/Resume";
@@ -33,7 +32,7 @@ export default function Home() {
             <Banner/>
             <About/>
             <Service/>
-            <Experience/>
+          
             <Projects/>
             <Resume/>
           </div>

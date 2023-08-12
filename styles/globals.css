@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cardGroup1{
+    position: relative;
+}
+.cardGroup2{
+    position: relative;
+}
+.cardGroup1::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:-30px;
+    width: 5px;
+    height: 110%;
+    box-shadow:  "0px 0px 20px 10px  white";
+    background-color: #01040bb2;
+}
+.cardGroup1::before{
+    content: '';
+    position: absolute;
+    top:110%;
+    transform: translateY(-50%);
+    left:-30px;
+    width: 56%;
+    height: 5px;
+    box-shadow:  "0px 0px 20px 10px  white";
+    background-color: #01040b9d;
+};
+.cardGroup2::after{
+    content: '';
+    position: absolute;
+    top:0;
+    left:-30px;
+    width: 5px;
+    height: 100%;
+    box-shadow:  "0px 0px 20px 10px  white";
+    background-color: #01040bb2;
+}

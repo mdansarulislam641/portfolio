@@ -1,5 +1,7 @@
 import React , {useState} from 'react'
 import SectionTitle from "./SectionTitle";
+import Experience from './Experience';
+import Education from './Education';
 const Resume = () => {
     
     const [resume , setResume]  = useState('skill');
@@ -16,6 +18,12 @@ const Resume = () => {
             <button onClick={()=>handleChange("skill")} className={`flex-1 ${resume === "skill" && 'shadow-cardShadow text-textGreen'}  py-7 px-4`}>PROFESSIONAL SKILLS </button>
             <button onClick={()=>handleChange("education")}  className={`flex-1 ${resume === "education" && 'shadow-cardShadow text-textGreen'}  py-7 px-4`}>EDUCATION </button>
             <button onClick={()=>handleChange("achieve")}  className={`flex-1 ${resume === "achieve" && 'shadow-cardShadow text-textGreen'}  py-7 px-4`}>ACHIEVE</button>
+        </div>
+
+        {/* skills  */}
+        <div>
+            {resume === "skill" && <Experience/>}
+            {resume === "education" && <Education/>}
         </div>
 
 
