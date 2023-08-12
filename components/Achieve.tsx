@@ -19,7 +19,7 @@ const Achieve = () => {
                 <PhotoProvider>
                    { images.map(( img , idx) => (
                       <PhotoView key={idx}  src={img}> 
-                            <Image src={img} width={1000} height={500} alt='achieve-image'/>
+                            <Image className='w-full h-[500px] object-fill' src={img} width={1000} height={500} alt='achieve-image'/>
                       </PhotoView>
                    ))}
                  
