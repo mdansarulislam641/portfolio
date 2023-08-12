@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
-import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
+import {  BsGithub } from "react-icons/bs";
 import { MdContactPhone, MdEmail, MdOutlineLocationOn } from "react-icons/md";
 import SectionTitle from "./SectionTitle";
+import {CiFacebook} from 'react-icons/ci';
+import { FiLinkedin } from "react-icons/fi";
 
 const ContactMe = () => {
   const [name, setName] = useState("");
@@ -60,35 +62,16 @@ const ContactMe = () => {
             </h4>
             {/* social icons  */}
             <div className="flex justify-start gap-5 pt-2 z-40">
-              <a
-                href="https://www.facebook.com/md.ansarulislam.641"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <BsFacebook
-                  size={24}
-                  className=" text-gray-100 cursor-pointer"
-                />
-              </a>
+            <a href="https://www.facebook.com/md.ansarulislam.641/" target='_blank'>
+                <span className='w-10 h-10 bg-hoverColor inline-flex items-center justify-center rounded-full hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all  duration-300'><CiFacebook size={22}/></span>
+            </a>
 
-              <a
-                href="https://www.linkedin.com/in/md-ansarul-haque/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <BsLinkedin
-                  size={24}
-                  className=" text-gray-100 cursor-pointer"
-                />
-              </a>
-              <a
-                href="https://github.com/mdansarulislam641"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <BsGithub size={24} className=" text-gray-100 cursor-pointer" />
-              </a>
+            <a href="https://www.linkedin.com/in/md-ansarul-haque/" target='_blank'>
+                <span className='w-10 h-10 bg-hoverColor inline-flex items-center justify-center rounded-full hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all  duration-300'><FiLinkedin size={22}/></span>
+            </a>
+            <a href="https://github.com/mdansarulislam641" target='_blank'>
+                <span className='w-10 h-10 bg-hoverColor inline-flex items-center justify-center rounded-full hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all  duration-300'><BsGithub size={22}/></span>
+            </a>
             </div>
           </div>
           <div
