@@ -2,6 +2,7 @@ import React , {useState} from 'react'
 import SectionTitle from "./SectionTitle";
 import Experience from './Experience';
 import Education from './Education';
+import Achieve from './Achieve';
 const Resume = () => {
     
     const [resume , setResume]  = useState('skill');
@@ -26,6 +27,7 @@ const Resume = () => {
         <div>
             {resume === "skill" && <Experience/>}
             {resume === "education" && <Education/>}
+            {resume === "achieve" && <Achieve/>}
         </div>
 
 
