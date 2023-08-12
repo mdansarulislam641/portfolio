@@ -38,7 +38,7 @@ export default function Home() {
             <Projects/>
             <Resume/>
             <ContactMe/>
-            <Footer/>
+          <Footer/>
           </div>
           <motion.div
           initial={{x:20 , opacity:0}}
@@ -47,6 +47,8 @@ export default function Home() {
             <RightSide/>
           </motion.div>
         </div>
+            <div>
+            </div>
         {/* banner section end */}
       </main>
     </>

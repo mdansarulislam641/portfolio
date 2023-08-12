@@ -36,28 +36,28 @@ const ContactMe = () => {
   return (
     <section id="contact" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Contact With Me" titleNo="05" />
-      <div className="mx-5 max-w-contentContainer my-20">
+      <div className="mx-5 max-w-contentContainer my-10 lgl:my-20">
 
         <div className="grid grid-cols-1  md:grid-cols-2 gap-10 items-center max-w-screen-xl mx-auto">
           <div data-aos="fade-down" className="text-center md:text-left">
             <div className="text-center flex items-center justify-center">
               {/* <img   src={sms} alt="" /> */}
             </div>
-            <p className="text-xl text-white">
+            <p className="mdl:text-xl text-justify text-white">
               i'd love if your reached out to me. even it's just to say "Hey!"
               Don't hesitate Drop me a Line and i'll get back to you ASAP!{" "}
             </p>
 
-            <h2 className="text-color text-xl flex items-center gap-1">
+            <h2 className=" md:text-xl flex items-center gap-1">
               {" "}
               <MdEmail />
               mdansarulislam641@gmail.com
             </h2>
 
-            <h3 className="text-xl text-color flex items-center gap-2">
+            <h3 className="mdl:text-xl  flex items-center gap-2">
               <MdContactPhone /> 01786891119
             </h3>
-            <h4 className="text-color flex items-center gap-1 text-xl">
+            <h4 className=" flex items-center gap-1 mdl:text-xl">
               <MdOutlineLocationOn /> Thakurgaon , Rangpur
             </h4>
             {/* social icons  */}
@@ -80,7 +80,7 @@ const ContactMe = () => {
           >
             <form onSubmit={handleSubmit}>
               <div>
-                <label className="text-white text-xl">Name</label>
+                <label className="text-white md:text-xl">Name</label>
                 <input
                   value={name}
                   required
@@ -92,7 +92,7 @@ const ContactMe = () => {
                 />
               </div>
               <div className="my-2">
-                <label className="text-white text-xl">Email</label>
+                <label className="text-white mdl:text-xl">Email</label>
                 <input
                   value={email}
                   required
@@ -104,7 +104,7 @@ const ContactMe = () => {
                 />
               </div>
               <div>
-                <label className="text-white text-xl">Message</label>
+                <label className="text-white md:text-xl">Message</label>
                 <textarea
                   value={message}
                   required

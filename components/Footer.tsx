@@ -5,7 +5,7 @@ import {FiLinkedin , FiYoutube} from 'react-icons/fi';
 
 const Footer = () => {
     return (
-        <footer className='shadow-cardShadow py-20 text-center max-w-container' >
+        <footer className='bg-gray-900 py-20 text-center max-w-container' >
            <div className=''>
            <h2 className='text-textGreen text-5xl text-extrabold font-bold'><a href="#home">MD ANSARUL HAQUE</a></h2>
          
