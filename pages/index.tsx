@@ -8,6 +8,7 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Service from "@/components/Service";
 import Resume from "@/components/Resume";
+import ContactMe from "@/components/ContactMe";
 export default function Home() {
   return (
     <>
@@ -35,6 +36,7 @@ export default function Home() {
           
             <Projects/>
             <Resume/>
+            <ContactMe/>
           </div>
           <motion.div
           initial={{x:20 , opacity:0}}
