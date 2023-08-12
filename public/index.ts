@@ -16,6 +16,10 @@ import github from './assets/skills-image/github.png';
 import firebase from './assets/skills-image/firebase.png';
 import figma from './assets/skills-image/figma.jpg';
 import mozila from './assets/skills-image/mozila.jpg'
+import lwsRecommendation from './assets/achieve-image/LWS-Recommendation-Letter.jpg';
+import PhRecommendation from './assets/achieve-image/recomendation-ofPH.jpg';
+import certificateOfLWS from './assets/achieve-image/LWS-Certificate.jpg'
 
 
-export {html , css , bootstrap , tailwind ,  js , react , node , typescript , next , express , mongo , vs , chrome , figma , firebase , git, github , mozila };
+
+export {html , css , bootstrap , tailwind ,  js , react , node , typescript , next , express , mongo , vs , chrome , figma , firebase , git, github , mozila , PhRecommendation , certificateOfLWS , lwsRecommendation  };
