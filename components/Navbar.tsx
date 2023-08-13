@@ -8,7 +8,7 @@ const Navbar = () => {
             {/* nav logo  */}
             <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.3}} ><h1 className='text-[20px] lg:text-[30px] font-bold'>Ansarul</h1> </motion.div>
             {/* nav menu  */}
-            <div className='hidden mdl:flex items-center gap-7'>
+            <div className='hidden lg:flex items-center gap-7'>
                 <ul className='flex gap-7 text-[15px] '>
                     <Link href="#home" className='font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 '>
                     <motion.li 
@@ -65,7 +65,7 @@ const Navbar = () => {
                    
             </div>
             {/* small device section start */}
-            <div className='w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group'>
+            <div className='w-6 h-5 flex flex-col justify-between items-center lg:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group'>
                 <span className='w-full h-[2px] bg-textGreen inline-flex transform transition-all duration-300 ease-in-out group-hover:translate-x-2' ></span>
                 <span className='w-full h-[2px] bg-textGreen inline-flex transform transition-all duration-300 ease-in-out translate-x-3 group-hover:translate-x-0' ></span>
                 <span className='w-full h-[2px] bg-textGreen inline-flex transform transition-all duration-300 ease-in-out translate-x-1  group-hover:translate-x-3' ></span>
