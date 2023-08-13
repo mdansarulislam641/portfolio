@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="max-w-contentContainer mx-auto py-10 lgl:py-32 flex flex-col gap-8"
+      className="max-w-contentContainer mx-auto pt-32 pb-10 lgl:py-32 flex flex-col gap-8"
     >
       <SectionTitle title="About Me" titleNo="01." />
       {/* main part start  */}
@@ -81,11 +81,11 @@ const About = () => {
           </ul>
         </div>
         {/* img part  */}
-        <div className="w-full lgl:w-1/3 h-80 relative group">
+        <div className="w-full lgl:w-1/3 h-80 mx-auto relative group">
           <div className="absolute h-80 w-full -left-6 -top-6 rounded-lg">
-            <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
+            <div className="w-full  h-full relative z-20 flex justify-center pl-10  lgl:pl-0">
               <Image
-                className="rounded-lg h-full object-fit"
+                className="rounded-lg h-full  object-fit"
                 src={profileImage}
                 alt="profile-image"
               />

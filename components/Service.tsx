@@ -6,12 +6,12 @@ const Service = () => {
   return (
     <section
       id="services"
-      className="max-w-contentContainer  mx-auto  py-10 lgl:py-20 px-4"
+      className="max-w-contentContainer  mx-auto  pt-20 lgl:py-20 px-4"
     >
       <SectionTitle title="What Do I Provide" titleNo="02" />
 
       {/* service card container  */}
-      <div className="w-full grid grid-cols-1 mdl:grid-cols-2 lgl:grid-cols-3 mdl:gap-5 lgl:gap-8 my-20 gap-y-10">
+      <div className="w-full grid grid-cols-1 mdl:grid-cols-2 lgl:grid-cols-3 mdl:gap-5 lgl:gap-8 mdl:my-20 my-10 gap-y-10">
         {/* card  */}
         <div className=" shadow-cardShadow rounded-lg py-8 px-7 hover:-translate-y-5 transition-all duration-500 delay-200">
           <span>

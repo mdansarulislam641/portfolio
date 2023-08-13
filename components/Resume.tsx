@@ -11,7 +11,7 @@ const Resume = () => {
         setResume(value)
     }
     return (
-        <section id="resume" className="max-w-container mx-auto lgl:px-20 py-24">
+        <section id="resume" className="max-w-container mx-auto lgl:px-20 pt-10 pb-24">
         <SectionTitle title="My Resume" titleNo="04" />
 
         {/* resume top btn  */}

@@ -34,34 +34,36 @@ const ContactMe = () => {
   };
 
   return (
-    <section id="contact" className="max-w-container mx-auto lgl:px-20 py-24">
+    <section id="contact" className="max-w-container mx-auto lgl:px-20 py-5">
       <SectionTitle title="Contact With Me" titleNo="05" />
       <div className="mx-5 max-w-contentContainer my-10 lgl:my-20">
 
-        <div className="grid grid-cols-1  md:grid-cols-2 gap-10 items-center max-w-screen-xl mx-auto">
-          <div data-aos="fade-down" className="text-center md:text-left">
+        <div className="grid grid-cols-1  mdl:grid-cols-2 gap-10 items-center max-w-screen-xl mx-auto">
+          <div  className="flex flex-col  justify-center md:text-left">
             <div className="text-center flex items-center justify-center">
               {/* <img   src={sms} alt="" /> */}
             </div>
-            <p className="mdl:text-xl text-justify text-white">
+            <p className="mdl:text-xl mdl:text-justify w-[90%] mdl:w-full mx-auto text-white">
               i'd love if your reached out to me. even it's just to say "Hey!"
               Don't hesitate Drop me a Line and i'll get back to you ASAP!{" "}
             </p>
 
-            <h2 className=" md:text-xl flex items-center gap-1">
+           <div className="flex flex-col  w-[90%] mdl:w-full mx-auto items-start">
+           <h2 className=" md:text-xl flex items-center  gap-1">
               {" "}
               <MdEmail />
               mdansarulislam641@gmail.com
             </h2>
 
-            <h3 className="mdl:text-xl  flex items-center gap-2">
+            <h3 className="mdl:text-xl   flex items-center  gap-2">
               <MdContactPhone /> 01786891119
             </h3>
-            <h4 className=" flex items-center gap-1 mdl:text-xl">
+            <h4 className="  flex items-center gap-1 mdl:text-xl">
               <MdOutlineLocationOn /> Thakurgaon , Rangpur
             </h4>
+           </div>
             {/* social icons  */}
-            <div className="flex justify-start gap-5 pt-2 z-40">
+            <div className="flex mdl:w-full w-[90%] mx-auto  gap-5 pt-2 z-40">
             <a href="https://www.facebook.com/md.ansarulislam.641/" target='_blank'>
                 <span className='w-10 h-10 bg-hoverColor inline-flex items-center justify-center rounded-full hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all  duration-300'><CiFacebook size={22}/></span>
             </a>
