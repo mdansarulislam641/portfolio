@@ -10,6 +10,7 @@ import Service from "@/components/Service";
 import Resume from "@/components/Resume";
 import ContactMe from "@/components/ContactMe";
 import Footer from "@/components/Footer";
+import ResponsiveMenu from "@/components/ResponsiveMenu";
 export default function Home() {
   return (
     <>
@@ -46,6 +47,9 @@ export default function Home() {
           transition={{duration:1,delay: 1.5}} className="hidden xl:inline-flex fixed bottom-0 right-0  w-32 h-full">
             <RightSide/>
           </motion.div>
+          <div className="fixed lg:hidden bottom-0  w-full shadow-lg  bg-gray-900 z-50">
+            <ResponsiveMenu/>
+          </div>
         </div>
             <div>
             </div>
