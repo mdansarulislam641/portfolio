@@ -21,59 +21,59 @@ const About = () => {
           </p>
           <p>
             and{" "}
-            <span className="text-textGreen">
+            <span className="text-textLight">
               I am complete Diploma in Engineering in Dinajpur polytechnic
               institute
             </span>{" "}
             and also i got{" "}
-            <span className="text-textGreen">CGPA: 3.79 in scale of 4.00</span>{" "}
+            <span className="text-textLight">CGPA: 3.79 in scale of 4.00</span>{" "}
           </p>
           <p>Here are a few technologies i have been working recently:</p>
-          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 mt-3 gap-2">
+          <ul className="max-w-[450px]  font-titleFont grid grid-cols-2 mt-3 gap-2">
             <li className="flex items-center gap-2">
-              <span>
+              <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Javascript (ES6+)
             </li>
             <li className="flex items-center gap-2">
-              <span>
+              <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Next Js
             </li>
-            <li className="flex items-center gap-2">
-              <span>
+            <li className="flex items-center gap-2 ">
+              <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               React Js
             </li>
             <li className="flex items-center gap-2">
-              <span>
+              <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Node Js
             </li>
             <li className="flex items-center gap-2">
-              <span>
+              <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Typescript
             </li>
             <li className="flex items-center gap-2">
-              <span>
+              <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Express Js
             </li>
             <li className="flex items-center gap-2">
-              <span>
+              <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               MongoDB
             </li>
             <li className="flex items-center gap-2">
-              <span>
+              <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Tailwindcss
@@ -82,18 +82,18 @@ const About = () => {
         </div>
         {/* img part  */}
         <div className="w-full lgl:w-1/3 h-80 mx-auto relative group">
-          <div className="absolute h-80 w-full -left-6 -top-6 rounded-lg">
-            <div className="w-full  h-full relative z-20 flex justify-center pl-10  lgl:pl-0">
+          <div className="absolute h-[400px] w-full -left-6 -top-6 rounded-lg">
+            <div className="w-full  h-full relative z-20 flex justify-center pl-10  lgl:pl-0 shadow-cardShadow">
               <Image
                 className="rounded-lg h-full  object-fit"
                 src={profileImage}
                 alt="profile-image"
               />
-              <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/10 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
+             
          
             </div>
                  
-            <div className="hidden absolute top-7 left-6 lgl:inline-flex  w-full h-80  rounded-md border-2 border-textGreen  group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform  duration-300"></div>
+            <div className="hidden absolute top-7 left-6 lgl:inline-flex  w-full h-full  rounded-md border-2 border-textGreen  group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform  duration-300"></div>
 
           </div>
         </div>

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { toast } from "react-hot-toast";
 import {  BsGithub } from "react-icons/bs";
 import { MdContactPhone, MdEmail, MdOutlineLocationOn } from "react-icons/md";
 import SectionTitle from "./SectionTitle";
