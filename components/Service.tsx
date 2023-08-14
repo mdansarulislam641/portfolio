@@ -19,7 +19,7 @@ const Service = () => {
           </span>
           <h3 className="text-xl my-5 mdl:text-2xl lgl:text-[30px]  ">Frontend Development</h3>
           <p>
-            I'm A Frontend Specialist. I have created many Website With Fancy
+            I&lsquo;m A Frontend Specialist. I have created many Website With Fancy
             Frontend. I can be your frontend Engineer.
           </p>
         </div>
@@ -31,7 +31,7 @@ const Service = () => {
           <h3 className="text-xl my-5 mdl:text-[28px]  ">  Mern Development</h3>
           <p>
         
-I'm a MERN Developer .I can build your full stack website with MongoDB, ExpressJS, ReactJS, NodeJS. I can be your Mern Developer.
+I&lsquo;m a MERN Developer .I can build your full stack website with MongoDB, ExpressJS, ReactJS, NodeJS. I can be your Mern Developer.
           </p>
         </div>
         {/* card  */}
@@ -42,7 +42,7 @@ I'm a MERN Developer .I can build your full stack website with MongoDB, ExpressJ
           <h3 className="text-xl my-5 mdl:text-[28px]  ">  React Development</h3>
           <p>
         
-I'm A React Developer. I have created many single page application using React.JS. I can be your React Developer.
+I&lsquo;m A React Developer. I have created many single page application using React.JS. I can be your React Developer.
           </p>
         </div>
         {/* card  */}
@@ -53,7 +53,7 @@ I'm A React Developer. I have created many single page application using React.J
           <h3 className="text-xl my-5 mdl:text-[28px]  "> Backend Development</h3>
           <p>
           
-I'm A Backend Developer. I have created many projects Server Side Api Endpoint. I can be your Backend Developer.
+I&lsquo;m A Backend Developer. I have created many projects Server Side Api Endpoint. I can be your Backend Developer.
           </p>
         </div>
         {/* card  */}
@@ -64,7 +64,7 @@ I'm A Backend Developer. I have created many projects Server Side Api Endpoint. 
           <h3 className="text-xl my-5 mdl:text-[28px]  "> Javascript Development</h3>
           <p>
           
-I'm a Javascript Developer. I have created many website using Javascript. I can be your Javascript Developer.
+I&lsquo;m a Javascript Developer. I have created many website using Javascript. I can be your Javascript Developer.
           </p>
         </div>
         {/* card  */}
@@ -75,7 +75,7 @@ I'm a Javascript Developer. I have created many website using Javascript. I can 
           <h3 className="text-xl my-5 mdl:text-[28px]  "> Figma To HTML</h3>
           <p>
           
-I'm a Convert Figma to HTML. I have created many website Convert figma to HTML . I can be your Figma to Front-end Developer.
+I&lsquo;m a Convert Figma to HTML. I have created many website Convert figma to HTML . I can be your Figma to Front-end Developer.
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import images from "../public/assets/images/profile-img.JPG";
+import images from "../public/assets/images/profile-img.jpg";
 import { TbBrandGithub } from "react-icons/tb";
 const Projects = () => {
   return (

@@ -44,8 +44,8 @@ const ContactMe = () => {
               {/* <img   src={sms} alt="" /> */}
             </div>
             <p className="mdl:text-xl mdl:text-justify w-[90%] mdl:w-full mx-auto text-white">
-              i'd love if your reached out to me. even it's just to say "Hey!"
-              Don't hesitate Drop me a Line and i'll get back to you ASAP!{" "}
+              i&lsquo;d love if your reached out to me. even it&lsquo;s just to say &lsquo;Hey!&lsquo;
+              Don&lsquo;t hesitate Drop me a Line and i&lsquo;ll get back to you ASAP!{" "}
             </p>
 
            <div className="flex flex-col  w-[90%] mdl:w-full mx-auto items-start">
