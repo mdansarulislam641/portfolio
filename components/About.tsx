@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 // import profileImage from "../public/assets/images/profile-img.jpg";
