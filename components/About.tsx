@@ -1,7 +1,7 @@
-// import Image from "next/image";
+import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-// import profileImage from "../public/assets/images/profile-img.jpg";
+import profileImage from "../public/assets/images/profile-img.jpg";
 const About = () => {
   return (
     <section
@@ -84,11 +84,11 @@ const About = () => {
         <div className="w-full lgl:w-1/3 h-80 mx-auto relative group">
           <div className="absolute h-80 w-full -left-6 -top-6 rounded-lg">
             <div className="w-full  h-full relative z-20 flex justify-center pl-10  lgl:pl-0">
-              {/* <Image
+              <Image
                 className="rounded-lg h-full  object-fit"
                 src={profileImage}
                 alt="profile-image"
-              /> */}
+              />
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/10 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
          
             </div>
@@ -98,9 +98,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div>
-        {/* test */}
-      </div>
+   
     </section> 
   );
 };
