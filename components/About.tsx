@@ -98,7 +98,10 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+      <div>
+        {/* test */}
+      </div>
+    </section> 
   );
 };
 
