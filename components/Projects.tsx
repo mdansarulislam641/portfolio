@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
-// import Image from "next/image";
-// import images from "../public/assets/images/profile-img.jpg";
+import Image from "next/image";
+import images from "../public/assets/images/profile-img.jpg";
 import { TbBrandGithub } from "react-icons/tb";
 const Projects = () => {
   return (
@@ -13,11 +13,11 @@ const Projects = () => {
         
             <a href="#" className="w-[500px] xl:w-1/2 h-auto relative group">
               <div>
-                {/* <Image
+                <Image
                   className="w-full h-[500px] object-contain"
                   src={images}
                   alt="project-image"
-                /> */}
+                />
               </div>
             </a>
         
@@ -65,11 +65,11 @@ const Projects = () => {
        
             <a href="#" className="w-[500px] xl:w-1/2 h-auto relative group">
               <div>
-                {/* <Image
+                <Image
                   className="w-full h-[500px] object-contain"
                   src={images}
                   alt="project-image"
-                /> */}
+                />
               </div>
             </a>
           
