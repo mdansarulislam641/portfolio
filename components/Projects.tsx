@@ -6,6 +6,7 @@ import { MdOutlineLiveTv } from "react-icons/md";
 import eventMart from '../public/assets/projectImage/event-Mart-min.png'
 import laptop from '../public/assets/projectImage/reseleLaptop-min.png'
 import onlineService from '../public/assets/projectImage/onlineService-min.png'
+import Link from "next/link";
 const Projects = () => {
   
   return (
@@ -25,7 +26,8 @@ const Projects = () => {
           <h2 className="text-textGreen text-xl">Event Mart</h2>
           <h4 className="text-textLight my-2 text-[22px] mdl:text-[30px]">Event Booking Website</h4>
           <div className="flex justify-between shadow-cardShadow px-4 py-2 rounded-2xl">
-            <button className="flex items-center gap-1 shadow-cardShadow px-2 py-2 rounded-lg hover:bg-hoverColor transition-all duration-400"><FaCircleInfo/><span>View Details</span></button>
+            <Link href="/1">
+            <button className="flex items-center gap-1 shadow-cardShadow px-2 py-2 rounded-lg hover:bg-hoverColor transition-all duration-400"><FaCircleInfo/><span>View Details</span></button></Link>
             <a href="https://event-app-pi.vercel.app/" target="_blank">
             <button className="flex items-center gap-1 shadow-cardShadow px-2 py-2 rounded-lg hover:bg-hoverColor transition-all duration-400"><MdOutlineLiveTv/><span>Live Site</span></button></a>
           </div>
