@@ -3,9 +3,9 @@ import Image from 'next/image';
 import profile from '../public/assets/images/homeprofil.png'
 const Banner = () => {
     return (
-      <section id='home' className='max-w-contentContainer mx-auto flex items-center gap-5'>
+      <section id='home' className='max-w-contentContainer mx-auto flex flex-col-reverse lg:flex-row items-center gap-5'>
         
-          <div  className=' flex flex-col  mx-auto mdl:py-24 gap-4 lgl:gap-8 mdl:px-10 xl:px-4'>
+          <div  className=' flex flex-col flex-1 mx-auto mdl:py-24 gap-4 lgl:gap-8 mdl:px-10 xl:px-4'>
           <motion.h3
           initial={{y:10 , opacity: 0}}
           animate={{y:0, opacity: 1}}
@@ -15,7 +15,7 @@ const Banner = () => {
           initial={{y:10 , opacity: 0}}
           animate={{y:0, opacity: 1}}
           transition={{duration: .5 , delay: .7}}
-          className='text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col'
+          className='text-5xl  lgl:text-6xl font-titleFont font-semibold flex flex-col'
           >Md Ansarul Haque <span className='text-textDark mt-2 lgl:mt-4 text-4xl lgl:text-5xl'>I build things for the web.</span></motion.h1>
           <motion.p 
            initial={{y:10 , opacity: 0}}
@@ -39,7 +39,7 @@ const Banner = () => {
           </motion.button>
         </div>
         {/* img  */}
-        <div className=' shadow-cardShadow rounded-lg h-full w-[50%]'>
+        <div className=' shadow-cardShadow rounded-lg h-full w-[95%] md:w-[75%] mdl:w-[80%] lg:w-[40%]'>
           <Image src={profile} className='h-full w-full' alt='home-profile-image'/>
         </div>
       </section>
