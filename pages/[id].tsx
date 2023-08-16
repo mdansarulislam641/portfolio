@@ -1,5 +1,5 @@
 import { Project } from "@/public/types/projectDetailsType";
-import { projectData } from "../pages/projectDatas";
+import  projectData  from "../components/projectDatas";
 import { GetServerSideProps } from "next";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";

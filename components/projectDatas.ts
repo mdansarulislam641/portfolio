@@ -1,6 +1,6 @@
 import { Project } from "@/public/types/projectDetailsType";
 
-export const projectData : Project[] =[
+ const projectData : Project[] =[
     {   id : 1,
         name: "Event Mart",
         related : "Event booking Website",
@@ -54,4 +54,6 @@ export const projectData : Project[] =[
     screenShortImage : ["https://i.ibb.co/RT5PWKh/online-1.png", "https://i.ibb.co/zXXfHW6/online-2.png", "https://i.ibb.co/RC4rgBc/online-Service-min.png"],
     cardClass: 'screen-project-3'
     },
-]
+];
+
+export default projectData ;
