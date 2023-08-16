@@ -8,4 +8,6 @@ export interface Project {
     liveLink: string;
     github: string;
     screenShortImage: string[];
+    cardClass : string,
+    server? : string
   }

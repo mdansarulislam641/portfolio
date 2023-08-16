@@ -19,9 +19,10 @@ const ProjectDetailPage: React.FC<ProjectDetailProps> = ({ project }) => {
     liveLink,
     screenShortImage,
     technology,
+    cardClass,
+    server
   } = project;
-  const width = "1000";
-  const height = "100";
+
   return (
     <section className="w-full h-screen bg-bodyColor text-textLight font-bodyFont overflow-x-hidden overflow-y-scroll pb-20">
       <div className="sticky top-0 left-0 z-50">
@@ -31,11 +32,10 @@ const ProjectDetailPage: React.FC<ProjectDetailProps> = ({ project }) => {
         {/* img  */}
         <div className="w-full flex flex-col justify-center flex-1">
           <div className="content ">
-            <div className="screen ">
-              <Image
-                width={width}
-                height={height}
-                layout="responsive"
+            <div className={`${cardClass}`}>
+              <Image 
+                width={1000} height={500}
+                
                 src={image}
                 alt="event-mart"
               />
@@ -70,8 +70,11 @@ const ProjectDetailPage: React.FC<ProjectDetailProps> = ({ project }) => {
                <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300 flex  items-center gap-1 uppercase "><BsFillSendFill className="text-textGreen"/><span>Live Live</span></button>
                </a>
                <a href={github} target="_blank">
-               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300  flex  items-center gap-1 uppercase "><BsGithub className="text-textGreen"/><span>Code Link</span></button>
+               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300  flex  items-center gap-1 uppercase "><BsGithub className="text-textGreen"/><span>{server ? "Client Code" :"Code Link"}</span></button>
                </a>
+              {project.server && <a href={project.server} target="_blank">
+               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300  flex  items-center gap-1 uppercase "><BsGithub className="text-textGreen"/><span>Server Code</span></button>
+               </a>}
              
               </div>
       </div>
