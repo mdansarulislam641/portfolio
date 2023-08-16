@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
     const [color , setColor] = useState('home');
     const router = useRouter();
-    console.log(router.asPath.slice(2), "this")
+
 
     return (
         <nav className='w-full shadow-navbarShadow h-20 lg:h-[12vh] bg-bodyColor px-4'>

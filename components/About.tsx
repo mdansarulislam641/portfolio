@@ -81,8 +81,8 @@ const About = () => {
           </ul>
         </div>
         {/* img part  */}
-        <div className="w-full lgl:w-1/3 h-80 mx-auto relative group">
-          <div className="absolute h-[400px] w-full -left-6 -top-6 rounded-lg">
+        <div className="w-full lgl:w-1/3  h-80 mx-auto relative group">
+          <div className="absolute h-[300px] mdl:h-[350px] w-full -left-6 -top-6 rounded-lg">
             <div className="w-full  h-full relative z-20 flex justify-center pl-10  lgl:pl-0 shadow-cardShadow">
               <Image
                 className="rounded-lg h-full  object-fit"

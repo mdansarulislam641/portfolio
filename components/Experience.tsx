@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="max-w-contentContainer  mx-auto   px-4"
+      className="max-w-contentContainer  mx-auto"
     >
       <div className="max-w-contentContainer  mx-auto  grid   grid-cols-1 lg:grid-cols-2  gap-x-8 gap-y-10">
         {/* front end development  */}
@@ -14,40 +14,40 @@ const Experience = () => {
         initial={{opacity: 0 , x: 0}}
         animate={{opacity:1 , x: 1}}
         transition={{duration:0.8 , delay: .5}}
-        className="shadow-cardShadow  transition-all duration-500 p-8 rounded-lg hover:bg-transparent">
+        className="shadow-cardShadow  transition-all duration-500 p-2 py-8 mdl:p-8 rounded-lg hover:bg-transparent">
           <h2 className="text-textLight text-xl mb-5 md:text-2xl text-center">
             Frontend Development
           </h2>
-          <ul className="grid grid-cols-2 justify-evenly gap-5 ">
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+          <ul className="grid grid-cols-2 justify-evenly gap-2 md:gap-5 ">
+            <li className="flex md:px-3 px-1 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={html} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">HTML (Expert)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={css} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">CSS (Expert)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={bootstrap} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Bootstrap (Expert)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={tailwind} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Tailwind (Expert)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={js} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Tailwind (Mid-Level)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={react} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">React (Mid-Level)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={typescript} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Typescript (Mid)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={next} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Next JS (Mid-Level) </span>
             </li>
@@ -58,24 +58,24 @@ const Experience = () => {
          initial={{opacity: 0 , x: 0}}
          animate={{opacity:1 , x: 1}}
          transition={{duration:0.8 , delay: .6}}
-        className="shadow-cardShadow  transition-all duration-500 p-8 rounded-lg hover:bg-transparent">
+        className="shadow-cardShadow  transition-all duration-500 p-2 py-8 mdl:p-8 rounded-lg hover:bg-transparent">
           <h2 className="text-textLight text-xl mb-5 md:text-2xl text-center">
             Back-End Development
           </h2>
-          <ul className="grid grid-cols-2 justify-evenly gap-5 ">
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+          <ul className="grid grid-cols-2 justify-evenly  gap-2 md:gap-5 ">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={typescript} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Typescript (Mid)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={node} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Node js (Basic)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={express} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Express (Mid-Level)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={mongo} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">MongoDB (Mid)</span>
             </li>
@@ -87,33 +87,33 @@ const Experience = () => {
           initial={{opacity: 0 , x: 0 }}
           animate={{opacity:1 , x: 1 }}
           transition={{duration:0.8 , delay: .8}}
-         className="shadow-cardShadow  transition-all duration-500  p-8 rounded-lg hover:bg-transparent">
+         className="shadow-cardShadow  transition-all duration-500 px-2 py-8 mdl:p-8 rounded-lg hover:bg-transparent">
           <h2 className="text-textLight text-xl mb-5 md:text-2xl text-center">
             Necessary Tools & Platform
           </h2>
-          <ul className="grid grid-cols-2 justify-evenly gap-5 ">
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+          <ul className="grid grid-cols-2 justify-evenly  gap-2 md:gap-5">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={vs} alt="html-logo" />{" "}
               <span className="text-textLight text-sm md:text-base">VS Code (Expert)</span>
             </li>
             
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={github} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Github (Mid-Level)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={git} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Git (Expert)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={chrome} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Chrome (Expert)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={mozila} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Mozila (Mid)</span>
             </li>
-            <li className="flex md:px-3 px-2 py-4 justify-center items-center gap-2   rounded-md shadow-cardShadow">
+            <li className="flex md:px-3 px-2 py-4 justify-center items-center md:gap-2 gap-1  rounded-md shadow-cardShadow">
               <Image className="w-6" src={firebase} alt="html-logo" />{" "}
               <span className="text-sm md:text-base text-textLight">Firebase (Mid)</span>
             </li>

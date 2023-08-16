@@ -17,7 +17,7 @@ const Resume = () => {
         {/* resume top btn  */}
         <div
        
-        className="flex justify-center  mdl:text-2xl shadow-cardShadow my-10">
+        className="flex justify-center text-sm  mdl:text-2xl shadow-cardShadow my-10">
             <button onClick={()=>handleChange("skill")} className={`flex-1 ${resume === "skill" && 'shadow-cardShadow text-textGreen'} py-3 lgl:py-7 px-4 lgl:px-4`}>PROFESSIONAL SKILLS </button>
             <button onClick={()=>handleChange("education")}  className={`flex-1 ${resume === "education" && 'shadow-cardShadow text-textGreen'}  py-7 px-4`}>EDUCATION </button>
             <button onClick={()=>handleChange("achieve")}  className={`flex-1 ${resume === "achieve" && 'shadow-cardShadow text-textGreen'}  py-7 px-4`}>ACHIEVE</button>

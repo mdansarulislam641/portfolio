@@ -5,6 +5,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import {BsFillSendFill ,BsGithub } from 'react-icons/bs'
 import { PhotoProvider, PhotoView } from "react-photo-view";
+import ResponsiveMenu from "@/components/ResponsiveMenu";
 interface ProjectDetailProps {
   project: Project;
 }
@@ -65,15 +66,15 @@ const ProjectDetailPage: React.FC<ProjectDetailProps> = ({ project }) => {
                   </div>
      
               {/* after  */}
-              <div className="absolute -bottom-20 rounded-lg  -translate-x-[50%] left-[50%] bg-bodyColor shadow-cardShadow w-[80%] md:w-[70%] lgl:w-[40%] h-20 flex items-center justify-evenly ">
+              <div className="absolute -bottom-20 rounded-lg  -translate-x-[50%] left-[50%] bg-bodyColor shadow-cardShadow w-[90%] md:w-[70%] lgl:w-[40%] h-20 flex items-center justify-evenly ">
                <a href={liveLink} target="_blank">
-               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300 flex  items-center gap-1 uppercase "><BsFillSendFill className="text-textGreen"/><span>Live Live</span></button>
+               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300 flex  items-center gap-1 text-sm mdl:text-[16px] uppercase "><BsFillSendFill className="text-textGreen"/><span>Live Live</span></button>
                </a>
                <a href={github} target="_blank">
-               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300  flex  items-center gap-1 uppercase "><BsGithub className="text-textGreen"/><span>{server ? "Client Code" :"Code Link"}</span></button>
+               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300  flex  items-center gap-1 text-sm mdl:text-[16px] uppercase "><BsGithub className="text-textGreen"/><span>{server ? "Client Code" :"Code Link"}</span></button>
                </a>
               {project.server && <a href={project.server} target="_blank">
-               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300  flex  items-center gap-1 uppercase "><BsGithub className="text-textGreen"/><span>Server Code</span></button>
+               <button className="shadow-cardShadow p-3 rounded-lg hover:bg-hoverColor transition-all duration-300  flex  items-center gap-1 text-sm mdl:text-[16px] uppercase "><BsGithub className="text-textGreen"/><span>Server Code</span></button>
                </a>}
              
               </div>
@@ -94,6 +95,11 @@ const ProjectDetailPage: React.FC<ProjectDetailProps> = ({ project }) => {
                     </PhotoProvider>
                 </div>
             </div>
+
+            {/* responsive menu item for small device */}
+            <div className="max-w-contentContainer mx-auto fixed lg:hidden bottom-0  w-full shadow-lg  bg-gray-900 z-50">
+            <ResponsiveMenu/>
+          </div>
     </section>
   );
 };
