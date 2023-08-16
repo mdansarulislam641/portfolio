@@ -2,6 +2,8 @@ import Link from 'next/link';
 import {motion} from 'framer-motion';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
+import logo from '../public/favicon.png'
+import Image from 'next/image';
 const Navbar = () => {
     const [color , setColor] = useState('home');
     const router = useRouter();
@@ -9,9 +11,9 @@ const Navbar = () => {
 
     return (
         <nav className='w-full shadow-navbarShadow h-20 lg:h-[12vh] bg-bodyColor px-4'>
-           <div className='max-w-container h-full mx-auto py-1 flex items-center justify-between font-titleFont'>
+           <div className='max-w-contentContainer  h-full mx-auto py-1 flex items-center justify-between  font-titleFont'>
             {/* nav logo  */}
-            <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.3}} ><h1 className='text-[25px] lg:text-[30px] font-bold text-textGreen '>Ansarul</h1> </motion.div>
+            <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.3}} ><h1 className='text-[25px] lg:text-[30px] font-bold text-textGreen flex items-center'> <Image className='w-24 h-24 mdl:w-[150px] mdl:h-[150px] object-cover' src={logo} alt='logo'/> </h1> </motion.div>
             {/* nav menu  */}
             <div className='hidden lg:flex items-center gap-7'>
                 <ul className='flex gap-7 text-[15px] '>

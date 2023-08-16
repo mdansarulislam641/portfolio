@@ -17,6 +17,7 @@ export default function Home() {
       <Head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Md Ansarul Islam</title>
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
       </Head>
       <main className="w-full h-screen bg-bodyColor text-textLight font-bodyFont overflow-x-hidden overflow-y-scroll">
        <div className="sticky top-0 z-50">
